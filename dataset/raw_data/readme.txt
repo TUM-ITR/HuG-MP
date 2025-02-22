@@ -1,0 +1,7 @@
+This folder contains the raw data collected during the experiments. Each "S0i" folder contains a binary file representing the full experimental trial for the respective subject. To read these binary files, use the MATLAB script "LabviewDataOpen.m," which allows for a complete scan of the exoskeleton data. For human motion recordings, the most relevant field is Data{1,1}.JointAngle(i,:), which contains the joint trajectory for joint i.
+
+The binary files include data from the execution of six tasks under analysis, each consisting of a variable number of motions. Each task was performed 10 times before moving on to the next. Consequently, when reading the file, the first task appears 10 times in sequence, followed by the second task repeated 10 times, and so on.
+
+Additionally, we provide the code "Data_Extraction.m," which was used for segmenting the trajectories. Due to the inaccuracy of fully automated segmentation, this script includes interactive steps where users can inspect trajectory signals—particularly absolute velocities—to manually refine motion segmentation.
+
+If the segmented data used in our analysis is sufficient, this folder and its associated code are unnecessary, as the already processed data is available in the "processed_data" folder. However, if alternative segmentations are required (e.g., full-task trajectories instead of individual motions), a customized solution must be developed.
