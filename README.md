@@ -38,7 +38,7 @@ The selected tasks involve predefined motion sequences designed to explore vario
   <figcaption>Figure 1. Experimental setup: A subject performing free-motion tasks using a target board while wearing the NESM-γ exoskeleton in transparent mode. </figcaption>
 </figure>
 
-\_
+&nbsp;
 
 <figure>
   <img src="figs/grid.png" width="300" alt="GitHub grid">
