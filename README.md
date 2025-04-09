@@ -33,17 +33,16 @@ The selected tasks involve predefined motion sequences designed to explore vario
 - **Task 6 (Motions 29–30):** Shoulder touch  
   K → S → K
 
-![Experimental setup: A subject performing free-motion tasks using a target board while wearing the NESM-γ exoskeleton in transparent mode.](figs/IMG_20240604_151811.jpg)
+<figure>
+  <img src="figs/IMG_20240604_151811.jpg" width="300" alt="GitHub setup">
+  <figcaption>Figure 1. Experimental setup: A subject performing free-motion tasks using a target board while wearing the NESM-γ exoskeleton in transparent mode. </figcaption>
+</figure>
 
-<img src="figs/IMG_20240604_151811.jpg" width="50">
 
-
-*Figure: Experimental setup.*
-
-![Target board used as a visual aid for free-motion tasks.](figs/grid.png)
-<img src="figs/grid.png" width="50">
-
-*Figure: Target board used during tasks.*
+<figure>
+  <img src="figs/grid.png" width="300" alt="GitHub grid">
+  <figcaption>Figure 2. Target board used during tasks. </figcaption>
+</figure>
 
 ## Dataset Structure
 
